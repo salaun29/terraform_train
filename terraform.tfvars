@@ -1,1 +1,1 @@
-vm-name ="vmterra-instance-ysa"
+vm-name ="vmterra-instance-ysa-2"
