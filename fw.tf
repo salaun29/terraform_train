@@ -1,5 +1,5 @@
 resource "google_compute_firewall" "terraform-network" {  
-    name    = "terraform-firewall-ysa"
+    name    = "terraform-firewall-ysa-3"
     network = google_compute_network.vpc_network.name
     target_tags = [ "firewall-test" ]  
     source_ranges = ["0.0.0.0/0"]

@@ -6,7 +6,7 @@ terraform {
     # }
  
     backend "local" {
-        
+
     }
 
     required_providers {
@@ -24,11 +24,11 @@ provider "google" {
 }
  
 resource "google_compute_network" "vpc_network" {
-    name = "terraform-network-ysa"
+    name = "terraform-network-ysa-3"
 }
  
 resource "google_compute_address" "static_ip" {
-    name = "terraform-static-ip-ysa"
+    name = "terraform-static-ip-ysa-3"
 }
  
 output "ip" {
