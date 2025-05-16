@@ -1,10 +1,14 @@
 terraform {
  
-    backend "gcs" {
-        bucket = "terraform-ysalaun"
-        prefix = "terraform/state"
-    }
+    # backend "gcs" {
+    #     bucket = "terraform-ysalaun"
+    #     prefix = "terraform/state"
+    # }
  
+    backend "local" {
+        
+    }
+
     required_providers {
         google = {
             source = "google"
