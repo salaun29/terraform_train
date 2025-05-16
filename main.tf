@@ -2,7 +2,7 @@ terraform {
  
     backend "gcs" {
         bucket = "terraform-ysalaun"
-        prefix = "terraform/state"  
+        prefix = "terraform/state"
     }
  
     required_providers {
